@@ -1,0 +1,5 @@
+package accountmanagement;
+//CUenta limitada
+public class LimitAccount extends Account {
+
+}

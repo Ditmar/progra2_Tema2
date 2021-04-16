@@ -1,0 +1,7 @@
+package accountmanagement;
+//Clase cuenta
+public class Account {
+	//saldo
+	private Double balance;
+	
+}

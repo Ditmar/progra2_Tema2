@@ -1,0 +1,9 @@
+package accountmanagement;
+//Clase cuenta
+public class Account {
+	//saldo
+	private Double balance;
+	public Account (Double balance) {
+		this.balance = balance
+	}
+}

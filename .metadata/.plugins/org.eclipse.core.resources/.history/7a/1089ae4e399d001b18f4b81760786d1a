@@ -1,0 +1,9 @@
+package accountmanagement;
+//CUenta limitada
+public class LimitAccount extends Account {
+	public LimitAccount(Double balance) {
+		//super(balance);
+		
+	}
+
+}

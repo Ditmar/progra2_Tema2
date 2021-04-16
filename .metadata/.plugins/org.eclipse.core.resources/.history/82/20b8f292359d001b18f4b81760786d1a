@@ -1,0 +1,9 @@
+package example1;
+
+public class Point {
+	private Double x;
+	private Double y;
+	public Point(Double x, Double y) {
+		this.x = x;
+	}
+}

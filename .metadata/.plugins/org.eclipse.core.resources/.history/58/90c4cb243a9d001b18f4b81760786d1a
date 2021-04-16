@@ -1,0 +1,20 @@
+package accountmanagement;
+//CUenta limitada
+public class LimitAccount extends Account {
+	private Double limit;
+	public LimitAccount(Double balance) {
+		super(balance);
+	}
+	public void adjustLimit() {
+		this.limit = this.getBalance() / 2;
+	}
+	public Boolean extractLimitBalance(Double money) {
+		if (money < this.limit ) {
+			this.extractBalance(money);
+			adjustLimit();
+			return true;
+		} 
+		return false;
+		
+	}
+}
